@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: yangpengye-cms
+Bundle-SymbolicName: yangpengye-cms
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.yangpengyu.cms,
+ com.yangpengyu.cms.controller,
+ com.yangpengyu.cms.entity,
+ com.yangpengyu.cms.listener,
+ com.yangpengyu.cms.mapper,
+ com.yangpengyu.cms.service,
+ com.yangpengyu.cms.serviceimpl,
+ com.yangpengyu.cms.utils,
+ com.yangpengyu.cms.web
