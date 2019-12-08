@@ -37,6 +37,7 @@ public class KafkaConsumerListener implements MessageListener<String, String>{
 		}*/
 		ListOperations<String, Article> list = redisTemplate.opsForList();
 		if(add>0){
+			
 			Article leftPop = list.leftPop("articles");
 			System.out.println("${"+article.getTitle()+"}已导入完毕");
 			
